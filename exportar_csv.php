@@ -2,7 +2,7 @@
 
 // export all data to CSV file
 
-use sys4soft\Database;
+use libdb\Database;
 
 require_once('config.php');
 require_once('libraries/Database.php');
