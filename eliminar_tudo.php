@@ -1,6 +1,6 @@
 <?php
 
-use sys4soft\Database;
+use libdb\Database;
 
 require_once('header.php');
 
