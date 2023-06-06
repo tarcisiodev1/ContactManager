@@ -41,6 +41,6 @@ header('Content-Type: application/octet-stream');
 header('Content-Disposition: attachment; filename="' . $filename . '"');
 header('Expires: 0');
 header('Cache-Control: must-revalidate');
-header('Pragma: ');
+header('Pragma: public');
 header('Content-lenght: ' . filesize($filename));
 readfile($filename);
