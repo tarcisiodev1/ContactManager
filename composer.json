@@ -1,0 +1,28 @@
+{
+  "name": "tarcisiodev1/rapidmvc",
+  "description": "RapidMVC - PHP framework",
+  "type": "framework",
+  "authors": [
+    {
+      "name": "Tarcisio Santos",
+      "email": "tarcisiodev1@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": [
+        "app/controllers"
+      ],
+      "Models\\": [
+        "app/models"
+      ],
+      "System\\": [
+        "app/system"
+      ]
+    },
+    "files": [
+      "app/config.php",
+      "app/helpers/functions.php"
+    ]
+  }
+}
