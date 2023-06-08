@@ -1,6 +1,6 @@
 # Contact Manager
 
-Este é um simples aplicativo de gerenciamento de contatos desenvolvido utilizando o padrão MVC e um framework MVC personalizado.
+Este é um aplicativo de gerenciamento de contatos desenvolvido utilizando o padrão MVC e um framework MVC personalizado.
 
 ## Funcionalidades
 
