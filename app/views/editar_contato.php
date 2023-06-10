@@ -69,13 +69,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <p class="text-center"><strong>EDITAR CONTATO</strong></p>
                 <div class="mb-3">
                     <label for="text_nome" class="form-label">Nome</label>
-                    <input type="text" name="text_nome" id="text_nome" class="form-control" minlength="3" maxlength="50"
-                        required value="<?= $contact->nome ?>">
+                    <input type="text" name="text_nome" id="text_nome" class="form-control" minlength="3" maxlength="50" required value="<?= $contact->nome ?>">
                 </div>
                 <div class="mb-3">
                     <label for="text_telefone" class="form-label">Telefone</label>
-                    <input type="text" name="text_telefone" id="text_telefone" class="form-control" minlength="3"
-                        maxlength="12" required value="<?= $contact->telefone ?>">
+                    <input type="text" name="text_telefone" id="text_telefone" class="form-control" minlength="3" maxlength="12" required value="<?= $contact->telefone ?>">
                 </div>
                 <div class="text-center">
                     <a href="index.php" class="btn btn-outline-dark">Cancelar</a>
@@ -87,14 +85,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         <!-- error message -->
         <?php if (!empty($erro)) : ?>
-        <div class="mt-3 alert alert-danger p-2 text-center">
-            <?= $erro ?>
-        </div>
+            <div class="mt-3 alert alert-danger p-2 text-center">
+                <?= $erro ?>
+            </div>
         <?php endif; ?>
 
     </div>
 </div>
 
 <?php
-require_once('footer.php');
+
 ?>
